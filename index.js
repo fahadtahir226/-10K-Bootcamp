@@ -32,7 +32,7 @@ function getData() {
     name.innerHTML = "Name: ";
     login.innerHTML = "Login: ";
     id.innerHTML = "Id: ";
-    id.innerHTML = "Followers: ";
+    followers.innerHTML = "Followers: ";
       
 
     var loginSite = document.createTextNode(user.login)
