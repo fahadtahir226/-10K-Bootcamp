@@ -1,9 +1,8 @@
 body{
-    height: max-content;
     background: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 1633.160px;
+    height: 770px;
     color: white;
 }
 div{
@@ -35,32 +34,13 @@ input:active{
     border-radius: 100%;
     margin-top: 30px;
 }
-.maindiv,.mainul{
+.maindiv{
     border-radius: 10px;
     color: black;
-}
-.maindiv{
     background: linear-gradient(to right, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 45%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%);
     border: 2px solid transparent;
     box-shadow: 10px 10px 34px -2px rgba(0,0,0,0.75);
-
-}
-.mainh3{
-    text-align: left;
-    padding: 5px;
-    margin-left: 15px;
-}
-.mainul{
-    padding: 10px;
-    margin: 4px 4px;
-    text-transform: capitalize;
 }
 p{
     font-size: 1.5em;
-}
-li{
-    text-align: left;
-    padding: 4px;
-    margin-left: 15px;
-    
 }
