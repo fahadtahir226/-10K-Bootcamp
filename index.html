@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>PWA</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
     <div class="bodydiv" >
     <h1>PROFILE</h1>
-    <input id="inputSection" type="search" value="" placeholder="Enter User Name..." />
+    <input id="inputSection" required="required" type="search" value="" placeholder="Enter User Name..." />
     <button id="searchButton" onclick="getData()">SEARCH</button>
     <div id="displayDiv">
         <img id="imgHtml" src = "" />
@@ -19,7 +19,10 @@
         <p id="idHtml" ></p>
         <p id="followersHtml" ></p>
     </div>
-    
+    <div id="uldiv">
+            <h3 id="headingfollowerHtml" ></h3>
+            <ul id="ulHtml"></ul>
+    </div>
     </div>
 </body>
 <script src="index.js"></script>
