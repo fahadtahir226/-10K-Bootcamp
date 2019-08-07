@@ -26,6 +26,7 @@ function getData() {
     var login = document.getElementById("loginHtml");
     var id = document.getElementById("idHtml");
     var ul = document.getElementById("ulHtml");
+    ul.innerHTML = '';
     var h3 = document.getElementById("headingfollowerHtml");
     var uldiv = document.getElementById("uldiv");
 
